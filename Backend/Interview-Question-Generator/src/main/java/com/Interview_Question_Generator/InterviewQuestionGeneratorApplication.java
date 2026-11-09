@@ -1,0 +1,13 @@
+package com.Interview_Question_Generator;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+
+@SpringBootApplication
+public class InterviewQuestionGeneratorApplication {
+	public static void main(String[] args) {
+		SpringApplication.run(
+				InterviewQuestionGeneratorApplication.class, args);
+	}
+}
